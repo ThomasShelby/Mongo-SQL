@@ -32,3 +32,14 @@ Requirements
 * Unit testing coverage
 * displaying result data via pretty JSON
 * supported conditions: =, !=, <>, >, >=, <, <=.
+### Query examples:
+```
+select * from users
+SELECT * FROM USERS
+select * from users where age = 33
+select * from users where age != 33
+select * from users where age <> 33
+select firstName, country from users where country = USA
+sELECT FIRSTNAME, couNTRY frOM USERS wheRE counTRY = USa
+select * from users where age <= 61
+```
